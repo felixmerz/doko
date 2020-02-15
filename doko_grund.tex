@@ -1,0 +1,86 @@
+\documentclass[11pt,a4paper,landscape]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,margin=0.5in]{geometry}
+
+\usepackage{auto-pst-pdf}
+\usepackage{pst-poker}
+\usepackage{multicol}
+\psset{inline=symbol}
+\pagestyle{empty}
+\setlength\parindent{0pt} % noindent
+\begin{document}
+
+\begin{center}
+\textbf{Doppelkopf - Grundregeln}
+\end{center}
+
+\begin{multicols}{3}
+%% karo = d, herz = h, pik = s, kreuz = c
+
+%\begin{pspicture}(-4,-1)(4.5,5)
+%\psset{index=regular,crdshadow=none,colorset=4c}
+%\rput[b]{20}(0,0){\crdAs}
+%\rput[b]{10}(0,0){\crdAh}
+%\rput[b]{0}(0,0){\crdAd}
+%\rput[b]{-10}(0,0){\crdAc}
+%\rput[b]{-20}(0,0){\crdKh}
+%\end{pspicture}
+
+%Text
+\textbf{Doppelkopf} ist ein Kartenspiel für vier Personen. Eine Doppelkopfrunde besteht dabei aus mehreren Spielen. Nach jedem Spiel werden dabei jedem Spieler entsprechend Punkte gutgeschrieben bzw abgezogen. Am Ende einer Runde gewinnt der Spieler mit den meisten Punkten. Falls mehr als vier Spieler einer Runde angehören, setzen reihum im Wechsel entsprechende Spieler aus. \\
+
+\textbf{Spielvorbereitung} Der Geber teilt im Uhrzeigersinn, beginnend beim Spieler links neben sich, jedem Spieler gleichmäßig alle Karten verdeckt aus. Dabei erhält jeder Spieler insgesamt zwölf Karten. \\
+
+\textbf{Spielfindung} Bevor der Aufspieler (links vom Geber) anfängt, werden Vorbehalte abgefragt. Dabei wird in zwei Runden beginnend beim Aufspieler zunächst abgefragt \textit{ob} und anschließend \textit{welche} Vorbehalte existieren. Alle Vorbehalte insbesondere ihre Rangfolge werden in den Hausregeln beschrieben. Falls kein Vorbehalt existiert, wird ein Normalspiel gespielt. Der Aufspieler darf auf eigenes Risiko und Ermessen von einem Normalspiel ausgehen und aufspielen, muss jedoch im Zweifel bei einem Vorbehalt sein Aufspiel zurücknehmen. \\
+
+\textbf{Blatt} 
+Die im Spiel enthaltenen Karten umfassen die Kartenwerte \textit{As}, \textit{10}, \textit{König}, \textit{Dame}, \textit{Bube}, \textit{Neun} in den vier Kartenfarben \textit{Kreuz}, \textit{Pik}, \textit{Herz}, \textit{Karo}. Jede Karte ist dabei zweimal im Spiel. Es wird zwischen \textit{Fehl} (auch Farbe genannt) und \textit{Trumpf} unterschieden. Gestochen wird in folgender aufsteigender Rangfolge. Dabei sticht bei Gleichstand im Allgemeinen die erste Karte.\\
+
+\hspace*{3.5cm}\textbf{Trumpf} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(-0.2,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdnined}
+\uput{1}[0](0,0){\crdKd}
+\uput{2}[0](0,0){\crdtend}
+\uput{3}[0](0,0){\crdAd}
+\uput{4}[0](0,0){\crdJd}
+\uput{5}[0](0,0){\crdJh}
+\uput{6}[0](0,0){\crdJs}
+\uput{7}[0](0,0){\crdJc}
+\uput{8}[0](0,0){\crdQd}
+\uput{9}[0](0,0){\crdQh}
+\uput{10}[0](0,0){\crdQs}
+\uput{11}[0](0,0){\crdQc}
+\uput{12}[0](0,0){\crdtenh}
+\end{pspicture} \\
+
+\hspace*{3.8cm}\textbf{Fehl} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(1,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdnineh}
+\uput{1}[0](0,0){\crdKh}
+\uput{2}[0](0,0){\crdAh}
+\uput{5.2}[0](0,0){\crdnines}
+\uput{6.2}[0](0,0){\crdKs}
+\uput{7.2}[0](0,0){\crdtens}
+\uput{8.2}[0](0,0){\crdAs}
+\uput{11.4}[0](0,0){\crdninec}
+\uput{12.4}[0](0,0){\crdKc}
+\uput{13.4}[0](0,0){\crdtenc}
+\uput{14.4}[0](0,0){\crdAc}
+\end{pspicture} \\
+
+\textbf{Spiel} Das eigentliche Spiel teilt sich in zwölf Stiche. Der Aufspieler spielt den ersten Stich an, indem er eine ihm geeignet erscheinende Karte offen auf den Tisch legt. Im Uhrzeigersinn tun ihm die anderen Spieler dies gleich, bis von jedem Spieler eine Karte auf dem Tisch liegt. Dabei haben die Spieler bestimmte Regeln einzuhalten. Je nach Spielart und der als erstes im Stich ausgespielten Karte entscheidet sich, wer die höchste Karte gelegt hat und damit alle vier Karten des Stiches erhält. Diese zieht er ein, legt sie verdeckt vor sich auf einen Stapel und muss den nächsten Stich anspielen. \\
+
+Der Spieler, der den Stich anspielen muss, kann frei entscheiden, welche Karte er ausspielen möchte. Spielt er Trumpf, so müssen die anderen Spieler ebenfalls eine Trumpfkarte ausspielen, sofern sie noch eine auf der Hand haben (so genanntes Bedienen). Andernfalls können sie eine beliebige Fehlfarbkarte spielen (so genanntes Abwerfen). Spielt der Spieler, der den Stich anspielt, eine Fehlfarbkarte aus, so müssen die anderen Spieler dieselbe Fehlfarbe bedienen, sofern sie eine Karte der entsprechenden Fehlfarbe besitzen. Andernfalls können sie entweder eine andere Fehlfarbkarte abwerfen oder mit einem Trumpf stechen. Den Stich erhält, wer die höchste Trumpfkarte gelegt hat. Falls niemand Trumpf gespielt hat, erhält derjenige den Stich, der die höchste Karte der angespielten Fehlfarbe gelegt hat. \\
+
+\textbf{Parteien} Die beiden Spieler mit den \textit{Kreuz-Damen} bilden die \textit{Re}-Partei, die anderen beiden Spieler bilden die \textit{Kontra}-Partei. Falls ein Spieler beide \textit{Kreuz-Damen} hat, kann er als Vorbehalt \textit{Hochzeit} ansagen (siehe Hausregeln). \\
+
+\textbf{Spielende} Nach dem letzten Stich, werden die Augen all ihrer durch Stiche gesammelten Karten aufaddiert, um den Gewinner zu ermitteln. Dabei haben \textit{As} = 11, \textit{Zehn} = 10, \textit{König} = 4, \textit{Dame} = 3, \textit{Bube} = 2, \textit{Neun} = 0 Augen. Insgesamt sind im Spiel 240 Augen - gewonnen wird also im Allgemeinen mit mehr als 120 Augen. Die Gewinnerpartei erhält einen Punkt. Zusätzlich erhählt die Gewinnerpartei fürs Überschreiten jeder weiteren 30-Augen Marke einen weiteren Punkt. Zuzüglich aller Sonderpunkte (siehe Hausregeln) werden die Punkte den Spielern der Gewinnerpartei gutgeschrieben und den anderen Spielern abgezogen. \\
+
+\textbf{Pflichtsolo} Jeder Spieler hat pro Runde genau ein Pflichtsolo. Dabei muss dieses bei vorher festgelegter Anzahl von Spielen gespielt werden oder es wird am Ende erzwungen. Bei nicht festgelegter Anzahl von Spielen muss es nicht gespielt werden. Das Pflichtsolo garantiert dem Solisten das Aufspiel. Nach einem Pflichtsolo rotiert der Geber nicht, damit einem Spieler nicht das Aufspiel verwehrt wird. 
+
+\end{multicols}
+\end{document}

@@ -1,0 +1,65 @@
+\documentclass[11pt,a4paper,landscape]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,margin=0.5in]{geometry}
+
+\usepackage{auto-pst-pdf}
+\usepackage{pst-poker}
+\usepackage{multicol}
+\psset{inline=symbol}
+\pagestyle{empty}
+\setlength\parindent{0pt} % noindent
+\begin{document}
+
+\begin{center}
+\textbf{Doppelkopf - Hausregeln}
+\end{center}
+
+\begin{multicols}{3}
+%% karo = d, herz = h, pik = s, kreuz = c
+
+%Text
+\textbf{Pflichtsolo} Jeder Spieler hat pro Runde genau ein Pflichtsolo. Dabei muss dieses bei vorher festgelegter Anzahl von Spielen gespielt werden oder es wird am Ende erzwungen. Bei nicht festgelegter Anzahl von Spielen muss es nicht gespielt werden. Das Pflichtsolo garantiert dem Solisten das Aufspiel. Nach einem Pflichtsolo rotiert der Geber nicht, damit einem Spieler nicht das Aufspiel verwehrt wird.  \\
+Wenn ein Spieler sein \textit{Pflichtsolo} schon gespielt hat, kann er ein \textit{Lustsolo} spielen. Dabei muss er sich jedoch an die durch den Geber festgelegte Aufspielreihenfolge halten.\\
+\vspace*{-0.3cm}\\
+\textbf{Spielsieg} Die \textit{Re}-Partei gewinnt ohne Ansagen mit mindestens 121 Augen. Die \textit{Kontra}-Partei gewinnt ohne Ansagen mit mindestens 120 Augen. Die Gewinner erhalten einen Punkt, die \textit{Kontra}-Partei erhält beim Sieg einen Sonderpunkt (\textit{Gegen die Alten}). \\
+\vspace*{-1cm}\\
+\begin{center}
+\textbf{Vorbehalte in absteigender Rangfolge}
+\end{center}
+\textbf{Solo} \textit{Pflichtsolo} geht vor \textit{Lustsolo}. Für alle spielbaren Soli siehe Soloübersicht. Der Solist entspricht der \textit{Re}-Partei. \\
+\textbf{Schmeißen} Bei mindestens fünf \textit{Neunen}, sieben \textit{Volle} (\textit{Asse} und \textit{Zehnen}) oder keinen \textit{Trumpf} über dem \textit{Fuchs} kann neu gemischt werden. \\
+\textbf{Armut} Ein Spieler mit drei oder weniger \textit{Trümpfen} (\textit{Fuchs} zählt hierbei nicht, \textit{Schwein} jedoch schon) hat eine \textit{Armut} und fragt gegen den Uhrzeigersinn nach Aufnahme. Wenn keiner ihn aufnimmt, wird geschmissen. Die \textit{Armut} entspricht der \textit{Re}-Partei. \\
+\textbf{Hochzeit} Ein Spieler mit beiden \textit{Kreuzdamen} hat eine \textit{Hochzeit}. Er spielt mit dem Spieler zusammen, der den ersten Stich bekommt. Wenn die \textit{Hochzeit} die ersten drei Stiche macht, spielt sie alleine. Eine nicht angesagte \textit{Hochzeit} spielt alleine ein \textit{Trumpfsolo} (\textit{Stille Hochzeit}). 
+%\vfill\null
+\columnbreak
+
+\hspace*{0.75cm}\textbf{Fuchs}\hspace{2.03cm}\textbf{Dulle}\hspace{1.91cm}\textbf{Charlie} \\
+\vspace{-0.3cm} \\
+\begin{pspicture}(0.7,-3)(3,3)
+\psset{crdshadow=none}
+\uput{1}[0](0,0){\crdAd}
+\uput{7.2}[0](0,0){\crdtenh}
+\uput{13.4}[0](0,0){\crdJc}
+\end{pspicture} \\
+
+\textbf{Dullenregel} Die zweite \textit{Dulle} sticht die erste \textit{Dulle} - außer im letzten Stich.
+
+\textbf{Schwein} Falls ein Spieler zu Beginn beide \textit{Füchse} ausgeteilt bekommt, kann er einen \textit{Fuchs} als \textit{Schwein} einsetzen. Dieses wird erst beim Ausspielen als ein \textit{Schwein} deklariert und ist der höchste \textit{Trumpf}. \\ 
+\begin{center}
+\textbf{Sonderpunkte} 
+\end{center}
+\textbf{Doppelkopf} Ein Stich mit mindestens 40 Augen heißt Doppelkopf und gibt einen Sonderpunkt.
+
+\textbf{Fuchs fangen} Gelingt es einer Partei, der gegnerischen Partei den Fuchs in einem Stich abzujagen, erhält sie dafür einen Sonderpunkt.
+
+\textbf{Charlie} Die Partei, die den letzten Stich mit dem Charlie gewinnt, erhält einen Sonderpunkt. \\
+
+\textbf{An-/Absagen} Jeder Spieler kann durch Ansagen von "Re" bzw "Kontra" seine Zugehörigkeit zu einer Partei bekanntgeben und den Spielwert um zwei Sonderpunkte erhöhen. \\ 
+Mit jeder weiteren Absage bzgl der Augen ("unter 90", "unter 60", "unter 30", "schwarz") wird das Spiel um einen Sonderpunkt beschwert und die Gewinnschwelle für die gegnerische Partei dementsprechend herabgesetzt ("unter 90" bedeutet bspw für die Gegner mindestens 90 Augen für den Sieg, "schwarz" bedeutet kein Stich dem Gegner überlassen). Jede Ansage kann nur einmal von der jeweiligen Partei getätigt werden, aber dafür sind sie im Wechsel der Partner einer Partei möglich. Im Zweifel der Parteizugehörigkeit muss zu jeder Absage die Partei bekannt werden. Ansagen können von einem Spieler nur getätigt werden, wenn dieser an der Reihe ist (unmittelbar vor oder nach dem Spielen einer Karte) \\
+Bis zum Spielen seiner zweiten Karte, kann ein Spieler "Re" bzw "Kontra" ansagen. Jede weitere gespielte Karte entspricht der Grenze für die weiteren Ansagen - also bis zur 3/4/5/6-ten Karte kann "unter 90"/"unter 60"/"unter 30"/"schwarz" abgesagt werden) \\
+Bei einer Hochzeit müssen die ersten Ansagen in dem Findungsstich unmittelbar folgenden Stich getätigt werden.\\
+
+\textbf{Spiel ohne Neunen} Die Spielvariante \textit{ohne Neunen} beinhaltet abseits der Herausnahme aller \textit{Neunen} aus dem Blatt und so die Herabsetzung von zwölf auf zehn Stichen folgende Regeländerungen: \\
+Ein \textit{Herzstich} - also beide \textit{Herz-Könige} und \textit{Herz-Asse} - gibt einen Sonderpunkt. \\ Es kann zusätzlich mit mindestens fünf \textit{Königen} oder maximal drei \textit{Trümpfen} geschmissen werden. \\ \textit{Armut} gibt es nicht. \\ Bei einer \textit{Hochzeit} gelten die gleichen \textit{An-/Absagen} Regeln wie bei einem \textit{Normalspiel}, nur das bis zum Findungsstich jeder für sich (mit "Puck") \textit{An-/Absagen} kann.
+\end{multicols}
+\end{document}

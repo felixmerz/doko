@@ -1,0 +1,199 @@
+\documentclass[11pt,a4paper,landscape]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,margin=0.5in]{geometry}
+
+\usepackage{auto-pst-pdf}
+\usepackage{pst-poker}
+\usepackage{multicol}
+\psset{inline=symbol}
+\pagestyle{empty}
+\setlength\parindent{0pt} % noindent
+\begin{document}
+
+\begin{center}
+\textbf{Doppelkopf - Soloübersicht}
+\end{center}
+
+\begin{multicols}{3}
+%% karo = d, herz = h, pik = s, kreuz = c
+
+%Text
+
+\textbf{Allgemeines} Der Solist spielt alleine gegen die drei anderen Spieler und wählt zu Beginn das entsprechende Solo. Bei einem \textit{Pflichtsolo} spielt der Solist auf. Bei einem \textit{Lustsolo} spielt - wie gewohnt - der Spieler links vom Geber auf. \\
+Der Solist bildet alleine die \textit{Re}-Partei. An-/Absagen können nach der üblichen Reihenfolge gemacht werden. Die Sonderpunkte für \textit{Fuchs fangen}, \textit{Doppelkopf} und \textit{Charlie} entfallen. Am Ende der Auswertung werden die Punkte des Solisten verdreifacht (egal ob bei Sieg oder Niederlage). 
+
+\begin{center}
+\textbf{Folgende Soli können gespielt werden} \\
+\end{center}
+
+\textbf{Farbsolo} Im Vergleich zum Normalspiel ersetzen die Karten \textit{Ass}, \textit{Zehn} (außer beim Herzsolo), \textit{König} und \textit{Neun} in der gewählten Farbe das \textit{Karo-Ass}, die \textit{Karo-Zehn}, den \textit{Karo-König} und die \textit{Karo-Neun} als \textit{Trumpf}. Die ersetzten \textit{Karo} werden hierbei zu einer neuen \textit{Fehl} in üblicher Rangfolge. Beim \textit{Karosolo} wird nichts geändert und entspricht so der Rangfolge wie im Normalspiel (\textit{Trumpfsolo}). \textit{Dullenregel} und \textit{Schwein} gelten beim Farbsolo weiterhin und werden auch nicht an die Farbwahl angepasst.
+
+Als Beispiel ein \textit{Kreuzsolo}: \\
+\hspace*{3.65cm}\textbf{Trumpf} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(-0.5,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdninec}
+\uput{1}[0](0,0){\crdKc}
+\uput{2}[0](0,0){\crdtenc}
+\uput{3}[0](0,0){\crdAc}
+\uput{4}[0](0,0){\crdJd}
+\uput{5}[0](0,0){\crdJh}
+\uput{6}[0](0,0){\crdJs}
+\uput{7}[0](0,0){\crdJc}
+\uput{8}[0](0,0){\crdQd}
+\uput{9}[0](0,0){\crdQh}
+\uput{10}[0](0,0){\crdQs}
+\uput{11}[0](0,0){\crdQc}
+\uput{12}[0](0,0){\crdtenh}
+\end{pspicture} \\
+\hspace*{3.9cm}\textbf{Fehl} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(1,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdnined}
+\uput{1}[0](0,0){\crdKd}
+\uput{2}[0](0,0){\crdtend}
+\uput{3}[0](0,0){\crdAd}
+\uput{6.2}[0](0,0){\crdnineh}
+\uput{7.2}[0](0,0){\crdKh}
+\uput{8.2}[0](0,0){\crdAh}
+\uput{11.4}[0](0,0){\crdnines}
+\uput{12.4}[0](0,0){\crdKs}
+\uput{13.4}[0](0,0){\crdtens}
+\uput{14.4}[0](0,0){\crdAs}
+\end{pspicture} 
+\vfill\null
+\columnbreak
+
+Für die folgenden \textbf{weiteren Soli} werden im Allgemeinen die vier \textit{Fehl} (Farben) in folgender aufsteigender Rangfolge genutzt: \\ 
+
+\hspace*{1.8cm}\textbf{Karo}\hspace{3.3cm}\textbf{Herz} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(0.3,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdnined}
+\uput{1}[0](0,0){\crdJd}
+\uput{2}[0](0,0){\crdQd}
+\uput{3}[0](0,0){\crdKd}
+\uput{4}[0](0,0){\crdtend}
+\uput{5}[0](0,0){\crdAd}
+\uput{8.7}[0](0,0){\crdnineh}
+\uput{9.7}[0](0,0){\crdJh}
+\uput{10.7}[0](0,0){\crdQh}
+\uput{11.7}[0](0,0){\crdKh}
+\uput{12.7}[0](0,0){\crdtenh}
+\uput{13.7}[0](0,0){\crdAh}
+\end{pspicture}
+
+\hspace*{1.85cm}\textbf{Pik}\hspace{3.4cm}\textbf{Kreuz} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(0.3,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdnines}
+\uput{1}[0](0,0){\crdJs}
+\uput{2}[0](0,0){\crdQs}
+\uput{3}[0](0,0){\crdKs}
+\uput{4}[0](0,0){\crdtens}
+\uput{5}[0](0,0){\crdAs}
+\uput{8.7}[0](0,0){\crdninec}
+\uput{9.7}[0](0,0){\crdJc}
+\uput{10.7}[0](0,0){\crdQc}
+\uput{11.7}[0](0,0){\crdKc}
+\uput{12.7}[0](0,0){\crdtenc}
+\uput{13.7}[0](0,0){\crdAc}
+\end{pspicture} \\
+\vspace*{0.2cm}\\
+Je nach gewähltem Solo, wird aus den entsprechenden Karten der \textit{Trumpf} (in aufsteigender Reihenfolge) gebildet. \textit{Dullenregel} und \textit{Schwein} entfallen.
+
+Jedes dieser \textit{Soli} kann dabei auch in umgedrehter Rangfolge gespielt werden (\textit{umgedreht}). \\ \textit{Trumpf} schlägt dabei immer noch \textit{Fehl}. \\
+
+\textbf{Fleischlos} Kein Trumpf - es kann daher lediglich \textit{Fehl} bedient oder abgeworfen werden.  \\
+
+\textbf{Reines Farbsolo} Eine der \textit{Fehl} wird als Trumpf gewählt. \\
+
+\hspace*{0.45cm}\textbf{Bubensolo}\hspace{1.05cm}\textbf{Damensolo}\hspace{0.95cm}\textbf{Königssolo} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(1.3,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdJd}
+\uput{1}[0](0,0){\crdJh}
+\uput{2}[0](0,0){\crdJs}
+\uput{3}[0](0,0){\crdJc}
+\uput{6.05}[0](0,0){\crdQd}
+\uput{7.05}[0](0,0){\crdQh}
+\uput{8.05}[0](0,0){\crdQs}
+\uput{9.05}[0](0,0){\crdQc}
+\uput{12.1}[0](0,0){\crdKd}
+\uput{13.1}[0](0,0){\crdKh}
+\uput{14.1}[0](0,0){\crdKs}
+\uput{15.1}[0](0,0){\crdKc}
+\end{pspicture} 
+\vfill\null
+\columnbreak
+\hspace*{3.55cm}\textbf{Hurenhaus} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(-2.5,-3)(3,3)
+\psset{crdshadow=none}
+\uput{1}[0](0,0){\crdJd}
+\uput{2}[0](0,0){\crdJh}
+\uput{3}[0](0,0){\crdJs}
+\uput{4}[0](0,0){\crdJc}
+\uput{5}[0](0,0){\crdQd}
+\uput{6}[0](0,0){\crdQh}
+\uput{7}[0](0,0){\crdQs}
+\uput{8}[0](0,0){\crdQc}
+\end{pspicture} 
+
+\hspace*{3.75cm}\textbf{Edelpuff} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(-2.5,-3)(3,3)
+\psset{crdshadow=none}
+\uput{1}[0](0,0){\crdQd}
+\uput{2}[0](0,0){\crdQh}
+\uput{3}[0](0,0){\crdQs}
+\uput{4}[0](0,0){\crdQc}
+\uput{5}[0](0,0){\crdKd}
+\uput{6}[0](0,0){\crdKh}
+\uput{7}[0](0,0){\crdKs}
+\uput{8}[0](0,0){\crdKc}
+\end{pspicture} 
+
+\hspace*{3.2cm}\textbf{Mönchskloster} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(-2.5,-3)(3,3)
+\psset{crdshadow=none}
+\uput{1}[0](0,0){\crdJd}
+\uput{2}[0](0,0){\crdJh}
+\uput{3}[0](0,0){\crdJs}
+\uput{4}[0](0,0){\crdJc}
+\uput{5}[0](0,0){\crdKd}
+\uput{6}[0](0,0){\crdKh}
+\uput{7}[0](0,0){\crdKs}
+\uput{8}[0](0,0){\crdKc}
+\end{pspicture} 
+
+\hspace*{3.45cm}\textbf{Bilderbuch} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(-0.5,-3)(3,3)
+\psset{crdshadow=none}
+\uput{1}[0](0,0){\crdJd}
+\uput{2}[0](0,0){\crdJh}
+\uput{3}[0](0,0){\crdJs}
+\uput{4}[0](0,0){\crdJc}
+\uput{5}[0](0,0){\crdQd}
+\uput{6}[0](0,0){\crdQh}
+\uput{7}[0](0,0){\crdQs}
+\uput{8}[0](0,0){\crdQc}
+\uput{9}[0](0,0){\crdKd}
+\uput{10}[0](0,0){\crdKh}
+\uput{11}[0](0,0){\crdKs}
+\uput{12}[0](0,0){\crdKc}
+\end{pspicture} \\
+
+\textbf{Sokrates} Es werden zwei der drei \textit{einfachen Bildsoli} (\textit{Buben-/Damen-/Königssolo}) in einer Reihenfolge gewählt und zu Beginn angesagt. Die erste Hälfte der Stiche gilt das erste \textit{Solo}, in der zweiten Hälfte wird zum zweiten \textit{Solo} gewechselt. \\
+
+
+
+\end{multicols}
+\end{document}
