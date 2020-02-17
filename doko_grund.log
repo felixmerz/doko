@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  15 FEB 2020 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  17 FEB 2020 12:17
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -847,42 +847,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--38
 <doko_grund-pics.pdf, id=2, page=1, 228.855pt x 60.225pt>
 File: doko_grund-pics.pdf Graphic file (type pdf)
 <use doko_grund-pics.pdf, page 1>
-Package pdftex.def Info: doko_grund-pics.pdf , page1 used on input line 42.
+Package pdftex.def Info: doko_grund-pics.pdf , page1 used on input line 45.
 (pdftex.def)             Requested size: 228.85443pt x 60.22484pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--57
+Underfull \hbox (badness 10000) in paragraph at lines 42--60
 
  []
 
 <doko_grund-pics.pdf, id=3, page=2, 248.93pt x 60.225pt>
 File: doko_grund-pics.pdf Graphic file (type pdf)
 <use doko_grund-pics.pdf, page 2>
-Package pdftex.def Info: doko_grund-pics.pdf , page2 used on input line 61.
+Package pdftex.def Info: doko_grund-pics.pdf , page2 used on input line 64.
 (pdftex.def)             Requested size: 248.92938pt x 60.22484pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--74
+Underfull \hbox (badness 10000) in paragraph at lines 61--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
+
+
+Overfull \vbox (0.96234pt too high) has occurred while \output is active []
+
 
 [1
 
@@ -894,7 +898,7 @@ doko_grund-pics.pdf> <./doko_grund-pics.pdf>] (./doko_grund.aux) )
 Here is how much of TeX's memory you used:
  9895 strings out of 492982
  169681 string characters out of 6134895
- 258193 words of memory out of 5000000
+ 259193 words of memory out of 5000000
  13296 multiletter control sequences out of 15000+600000
  4594 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -903,7 +907,7 @@ Here is how much of TeX's memory you used:
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on doko_grund.pdf (1 page, 907566 bytes).
+Output written on doko_grund.pdf (1 page, 906372 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
