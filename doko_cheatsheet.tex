@@ -1,0 +1,247 @@
+\documentclass[11pt,a4paper,landscape]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,margin=0.5in]{geometry}
+
+\usepackage{auto-pst-pdf}
+\usepackage{pst-poker}
+\usepackage{multicol}
+\psset{inline=symbol}
+\pagestyle{empty}
+\setlength\parindent{0pt} % noindent
+\begin{document}
+
+\begin{center}
+\textbf{Doppelkopf - Cheatsheet}
+\end{center}
+
+\begin{multicols}{3}
+%% karo = d, herz = h, pik = s, kreuz = c
+
+%Text
+\hspace*{3.8cm}\textbf{Trumpf} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(-0.2,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdnined}
+\uput{1}[0](0,0){\crdKd}
+\uput{2}[0](0,0){\crdtend}
+\uput{3}[0](0,0){\crdAd}
+\uput{4}[0](0,0){\crdJd}
+\uput{5}[0](0,0){\crdJh}
+\uput{6}[0](0,0){\crdJs}
+\uput{7}[0](0,0){\crdJc}
+\uput{8}[0](0,0){\crdQd}
+\uput{9}[0](0,0){\crdQh}
+\uput{10}[0](0,0){\crdQs}
+\uput{11}[0](0,0){\crdQc}
+\uput{12}[0](0,0){\crdtenh}
+\end{pspicture} \\
+
+\hspace*{4.05cm}\textbf{Fehl} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(1,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdnineh}
+\uput{1}[0](0,0){\crdKh}
+\uput{2}[0](0,0){\crdAh}
+\uput{5.2}[0](0,0){\crdnines}
+\uput{6.2}[0](0,0){\crdKs}
+\uput{7.2}[0](0,0){\crdtens}
+\uput{8.2}[0](0,0){\crdAs}
+\uput{11.4}[0](0,0){\crdninec}
+\uput{12.4}[0](0,0){\crdKc}
+\uput{13.4}[0](0,0){\crdtenc}
+\uput{14.4}[0](0,0){\crdAc}
+\end{pspicture} \\
+\begin{center}
+\textbf{Augen}
+\end{center}
+\begin{pspicture}(1,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdninec}
+\uput{3.7}[0](0,0){\textbf{= 0}}
+\uput{6}[0](0,0){\crdJc}
+\uput{9.7}[0](0,0){\textbf{= 2}}
+\uput{12}[0](0,0){\crdQc}
+\uput{15.7}[0](0,0){\textbf{= 3}}
+\end{pspicture} \\
+
+\begin{pspicture}(1,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdKc}
+\uput{3.7}[0](0,0){\textbf{= 4}}
+\uput{6}[0](0,0){\crdtenc}
+\uput{9.7}[0](0,0){\textbf{= 10}}
+\uput{12}[0](0,0){\crdAc}
+\uput{15.7}[0](0,0){\textbf{= 11}}
+\end{pspicture}
+
+\begin{center}
+\textbf{Vorbehalte}
+\end{center}
+
+\textbf{Pflichtsolo $>$ Lustsolo \\ \hspace*{0.5cm} $>$ Schmeißen $>$ Armut $>$ Hochzeit} \\
+
+\textbf{Schmeißen} bei: \\ 
+- mindestens fünf \textit{Neunen} \\ 
+- mindestens sieben \textit{Volle} (\textit{Zehnen} und \textit{Asse}) \\ 
+- keinen \textit{Trumpf} über dem \textit{Fuchs}  \\
+- mindestens fünf \textit{Könige} (nur bei \textit{ohne Neunen}) \\ 
+- maximal drei \textit{Trümpfe} (nur bei \textit{ohne Neunen})\\
+\columnbreak
+
+\hspace*{0.75cm}\textbf{Fuchs}\hspace{2.03cm}\textbf{Dulle}\hspace{1.91cm}\textbf{Charlie} \\
+\vspace{-0.3cm} \\
+\begin{pspicture}(0.7,-3)(3,3)
+\psset{crdshadow=none}
+\uput{1}[0](0,0){\crdAd}
+\uput{7.2}[0](0,0){\crdtenh}
+\uput{13.4}[0](0,0){\crdJc}
+\end{pspicture} 
+
+\begin{center}
+\textbf{An-/Absagen}
+\end{center}
+
+\textbf{Re/Kontra} bis zum Ausspielen der \textbf{zweiten Karte} möglich.
+\textbf{Unter 90/unter 60/unter 30/schwarz} bis zum Ausspielen der \textbf{3/4/5/6ten Karte} möglich. \\
+
+\hspace*{2.65cm}\textbf{Karosolo/Trumpfsolo} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(-0.5,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdnined}
+\uput{1}[0](0,0){\crdKd}
+\uput{2}[0](0,0){\crdtend}
+\uput{3}[0](0,0){\crdAd}
+\uput{4}[0](0,0){\crdJd}
+\uput{5}[0](0,0){\crdJh}
+\uput{6}[0](0,0){\crdJs}
+\uput{7}[0](0,0){\crdJc}
+\uput{8}[0](0,0){\crdQd}
+\uput{9}[0](0,0){\crdQh}
+\uput{10}[0](0,0){\crdQs}
+\uput{11}[0](0,0){\crdQc}
+\uput{12}[0](0,0){\crdtenh}
+\end{pspicture} \\
+
+\hspace*{3.65cm}\textbf{Herzsolo} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(-0.5,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdnineh}
+\uput{1}[0](0,0){\crdKh}
+\uput{2}[0](0,0){\crdAh}
+\uput{3}[0](0,0){\crdJd}
+\uput{4}[0](0,0){\crdJh}
+\uput{5}[0](0,0){\crdJs}
+\uput{6}[0](0,0){\crdJc}
+\uput{7}[0](0,0){\crdQd}
+\uput{8}[0](0,0){\crdQh}
+\uput{9}[0](0,0){\crdQs}
+\uput{10}[0](0,0){\crdQc}
+\uput{11}[0](0,0){\crdtenh}
+\end{pspicture} \\
+
+\hspace*{3.75cm}\textbf{Piksolo} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(-0.5,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdnines}
+\uput{1}[0](0,0){\crdKs}
+\uput{2}[0](0,0){\crdtens}
+\uput{3}[0](0,0){\crdAs}
+\uput{4}[0](0,0){\crdJd}
+\uput{5}[0](0,0){\crdJh}
+\uput{6}[0](0,0){\crdJs}
+\uput{7}[0](0,0){\crdJc}
+\uput{8}[0](0,0){\crdQd}
+\uput{9}[0](0,0){\crdQh}
+\uput{10}[0](0,0){\crdQs}
+\uput{11}[0](0,0){\crdQc}
+\uput{12}[0](0,0){\crdtenh}
+\end{pspicture} 
+
+\hspace*{3.55cm}\textbf{Kreuzsolo} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(-0.5,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdninec}
+\uput{1}[0](0,0){\crdKc}
+\uput{2}[0](0,0){\crdtenc}
+\uput{3}[0](0,0){\crdAc}
+\uput{4}[0](0,0){\crdJd}
+\uput{5}[0](0,0){\crdJh}
+\uput{6}[0](0,0){\crdJs}
+\uput{7}[0](0,0){\crdJc}
+\uput{8}[0](0,0){\crdQd}
+\uput{9}[0](0,0){\crdQh}
+\uput{10}[0](0,0){\crdQs}
+\uput{11}[0](0,0){\crdQc}
+\uput{12}[0](0,0){\crdtenh}
+\end{pspicture}
+\vfill
+\columnbreak
+%\textbf{Schwein} sowie \textbf{Dullenregel} gelten bei allen \textit{Farbsoli}. Nicht jedoch bei den folgenden \textit{Soli}:
+
+\begin{center}
+\textbf{Fleischlos}
+\end{center}
+\hspace*{1.8cm}\textbf{Karo}\hspace{3.3cm}\textbf{Herz} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(0.3,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdnined}
+\uput{1}[0](0,0){\crdJd}
+\uput{2}[0](0,0){\crdQd}
+\uput{3}[0](0,0){\crdKd}
+\uput{4}[0](0,0){\crdtend}
+\uput{5}[0](0,0){\crdAd}
+\uput{8.7}[0](0,0){\crdnineh}
+\uput{9.7}[0](0,0){\crdJh}
+\uput{10.7}[0](0,0){\crdQh}
+\uput{11.7}[0](0,0){\crdKh}
+\uput{12.7}[0](0,0){\crdtenh}
+\uput{13.7}[0](0,0){\crdAh}
+\end{pspicture}
+
+\hspace*{1.85cm}\textbf{Pik}\hspace{3.4cm}\textbf{Kreuz} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(0.3,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdnines}
+\uput{1}[0](0,0){\crdJs}
+\uput{2}[0](0,0){\crdQs}
+\uput{3}[0](0,0){\crdKs}
+\uput{4}[0](0,0){\crdtens}
+\uput{5}[0](0,0){\crdAs}
+\uput{8.7}[0](0,0){\crdninec}
+\uput{9.7}[0](0,0){\crdJc}
+\uput{10.7}[0](0,0){\crdQc}
+\uput{11.7}[0](0,0){\crdKc}
+\uput{12.7}[0](0,0){\crdtenc}
+\uput{13.7}[0](0,0){\crdAc}
+\end{pspicture} \\
+
+\textbf{Reines Farbsolo} Eine der \textit{Fehl} aus dem \textit{Fleischlos} wird als Trumpf gewählt. \\
+
+\hspace*{0.45cm}\textbf{Bubensolo}\hspace{1.05cm}\textbf{Damensolo}\hspace{0.95cm}\textbf{Königssolo} \\
+\vspace*{-0.3cm} \\
+\begin{pspicture}(1.3,-3)(3,3)
+\psset{crdshadow=none}
+\uput{0}[0](0,0){\crdJd}
+\uput{1}[0](0,0){\crdJh}
+\uput{2}[0](0,0){\crdJs}
+\uput{3}[0](0,0){\crdJc}
+\uput{6.05}[0](0,0){\crdQd}
+\uput{7.05}[0](0,0){\crdQh}
+\uput{8.05}[0](0,0){\crdQs}
+\uput{9.05}[0](0,0){\crdQc}
+\uput{12.1}[0](0,0){\crdKd}
+\uput{13.1}[0](0,0){\crdKh}
+\uput{14.1}[0](0,0){\crdKs}
+\uput{15.1}[0](0,0){\crdKc}
+\end{pspicture} 
+
+\end{multicols}
+\end{document}
